@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome">Мини-викторина</string>
+    <string name="subtitle">Проверь свои знания об Android и программировании</string>
+    <string name="name_hint">Введите имя</string>
+    <string name="enter_name">Сначала введите имя</string>
+    <string name="start">Начать</string>
+    <string name="guest">Гость</string>
+    <string name="progress">Вопрос %1$d из %2$d</string>
+    <string name="result_title">Викторина завершена!</string>
+    <string name="result_format">%1$s, ваш результат: %2$d из %3$d</string>
+    <string name="restart">Начать заново</string>
+    <string name="q1">Какой язык используется в этом приложении?</string>
+    <string name="q1a">Python</string><string name="q1b">Kotlin</string><string name="q1c">PHP</string>
+    <string name="q2">Как называется файл с настройками компонентов Android?</string>
+    <string name="q2a">AndroidManifest.xml</string><string name="q2b">index.html</string><string name="q2c">main.css</string>
+    <string name="q3">Как называется компонент одного экрана Android?</string>
+    <string name="q3a">Database</string><string name="q3b">Service</string><string name="q3c">Activity</string>
+    <string name="q4">Что используется для перехода между Activity?</string>
+    <string name="q4a">Toast</string><string name="q4b">Intent</string><string name="q4c">TextView</string>
+    <string name="q5">Где обычно хранится XML-разметка экранов?</string>
+    <string name="q5a">res/layout</string><string name="q5b">res/drawable</string><string name="q5c">res/mipmap</string>
+</resources>

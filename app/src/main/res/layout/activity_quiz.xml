@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical"
+    android:padding="@dimen/screen_padding" android:background="@color/background">
+    <TextView android:id="@+id/progressText" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textColor="@color/primary"
+        android:textSize="@dimen/body_size" />
+    <TextView android:id="@+id/questionText" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="@dimen/title_size"
+        android:textColor="@color/text_color" android:textStyle="bold"
+        android:layout_marginTop="@dimen/section_gap" android:layout_marginBottom="@dimen/section_gap" />
+    <Button android:id="@+id/answer1" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/answer2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_gap" />
+    <Button android:id="@+id/answer3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_gap" />
+</LinearLayout>
