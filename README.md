@@ -1,12 +1,33 @@
 # QuizApp
-Учебная Android-викторина на Kotlin и XML. Три Activity: MainActivity, QuizActivity, ResultActivity. Пять вопросов, подсчёт результата, явные Intent с передачей данных, LinearLayout и RelativeLayout, логи жизненного цикла.
 
+Учебное Android-приложение — викторина из 5 вопросов, разработанная на Kotlin с использованием XML.
+
+## Технологии
+- Язык: Kotlin
+- Интерфейс: XML
 - minSdk: 26 (Android 8.0)
-- targetSdk / compileSdk: указать значения из app/build.gradle.kts
-- Проверка: указать версию эмулятора после запуска
+- targetSdk: 37
+- compileSdk: 37
+- Эмулятор: Medium Phone, API 37
+
+## Функциональность
+- MainActivity — ввод имени пользователя.
+- QuizActivity — прохождение викторины из 5 вопросов.
+- ResultActivity — отображение результата и повторное прохождение.
+- Передача данных между экранами через Intent.
+- Использование LinearLayout и RelativeLayout.
+- Логирование жизненного цикла Activity и действий пользователя.
 
 ## Запуск
-Открыть проект в Android Studio, выполнить Gradle Sync и Run.
+1. Скачать проект с GitHub.
+2. Открыть его в Android Studio.
+3. Выполнить Gradle Sync.
+4. Запустить приложение на эмуляторе или Android-устройстве.
+
+## Скриншоты
+Скриншоты трёх экранов находятся в папке `Screenshots`.
 
 ## Материалы для сдачи
-Добавить реальные скриншоты экранов, logs.txt и ссылку на APK после проверки.
+- Исходный код — в данном репозитории.
+- Логи работы приложения — `logs.txt`.
+- APK — [QuizApp v1.0.0](https://github.com/Nurdikk/QuizApp/releases/tag/v1.0.0).
